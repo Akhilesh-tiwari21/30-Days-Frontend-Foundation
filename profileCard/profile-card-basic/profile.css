@@ -1,0 +1,106 @@
+/* ==== [*] are apply full page ==== */
+* {
+    margin : 0;
+    padding :0;
+    box-sizing : border-box;
+}
+
+/* ====== [body] are apply only select body page ====== */
+body {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    background-color :aliceblue;
+    min-height : 100vh;
+}
+
+/* ==== [profile-card] css are apply for card background  ==== */
+.profile-card {
+    padding : 2px;
+    max-width : 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 1px solid purple;
+    border-radius : 20px;
+    background-color : purple;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform : translateY(-20px);
+    box-shadow : 0px 10px 5px rgb(96, 54, 124);
+
+}
+
+/* ==== [img] are apply inside article to image part ==== */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius : 50%;
+    object-fit: cover;
+    border : 1px solid white;
+    background-color : white;
+    padding : 20px;
+}
+
+/* ==== [content] are apply inside article to content ====  */
+article .content {
+    border : 1px solid whitesmoke;
+    min-height : 250px;
+    margin : 10px;
+    max-width : 300px;
+    border-radius : 20px;
+    background-color : whitesmoke;
+    color : purple;
+}
+
+/* ==== [content] are apply inside section containers page ==== */
+.profile-name, .profile-role, .profile-description {
+    text-align : center;
+    padding : 10px;
+    line-height : 1.4;
+}
+.profile-name {
+    font-size : 1.8rem;
+}
+.profile-role {
+    font-size : 1.2rem;
+}
+.profile-description {
+    font-size : 1.1rem;
+    line-height : 18px;
+}
+
+/* ==== [button-group] css are apply button-group ==== */
+.button-group {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+/* ==== [btn] css are apply inside button-group for button ==== */
+.btn {
+    min-height : 30px;
+    line-height : 15px;
+    min-width : 110px;
+    font-size : 1.0rem;
+    background-color :lightgreen;
+    border : lightgreen;
+    border-radius : 10px;
+    color : black;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* ==== css are apply for button hover effect ==== */
+.btn:hover {
+    background-color: #7CFF7C;
+    transform: scale(1.05);
+}
+
+/*==== [media] css are apply for responsiveness and mobiles ==== */
+@media (max-width: 600px) {
+    .profile-card {
+        width: 90%;
+    }
+}

@@ -45,6 +45,7 @@ This repository documents my daily practice, problem-solving approach, and progr
 
 ### 📌 Task & Learning
 1. [DAY-01] COLOR GENERATOR
+2. [DAY-02] PROFILE CARD UI
 
 ## 🛠️ Tech Stack
 1. HTML5 – semantic structure
