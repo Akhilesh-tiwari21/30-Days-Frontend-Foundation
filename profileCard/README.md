@@ -39,7 +39,7 @@ This project demonstrates strong fundamentals of HTML structure and CSS styling.
 An interactive profile card with JavaScript-based logic to show and hide profile details dynamically.
 This project focuses on DOM manipulation, state handling, and CSS animations.
 
-[Key-Features]:-
+[Key-Features]
 1. Profile image with styled container
 2. Name, role, and description hidden by default
 3. View Profile / Hide Profile toggle button
@@ -48,18 +48,18 @@ This project focuses on DOM manipulation, state handling, and CSS animations.
 6. Hover and click-based transitions
 7. Responsive design for small devices
 
-[JavaScript-Functionality]:-
+[JavaScript-Functionality]
 1. Toggle profile visibility on button click
 2. Change button text dynamically
 3. Add/remove CSS classes using classList
 4. Simple state management using boolean logic
 
-[Technologies-Used]:-
+[Technologies-Used]
 1. HTML5
 2. CSS3 (Transitions, Animations)
 3. JavaScript (DOM Manipulation)
 
-[Learning-Outcomes]:-
+[Learning-Outcomes]
 1. JavaScript event handling
 2. UI state management
 3. CSS + JS interaction
