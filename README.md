@@ -47,7 +47,7 @@ This repository documents my daily practice, problem-solving approach, and progr
 1. [DAY-01] 🎨 Color Generator
 2. [DAY-02] 📇 Profile Card UI
 3. [DAY-03] 📘 FAQ Accordion Component
-
+4. [DAY-04] 📝 Survey / Feedback Form
 ## 🛠️ Tech Stack
 1. HTML5 – semantic structure
 2. CSS3 – layout, responsiveness, UI polish

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="survey.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- ===== Survey / Feedback Form ===== -->
+        <form class="">
+            <!-- ======= Write your Name,Age,Email ======== -->
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="name" class="n">
+            </div>
+
+            <div class="form-control">
+                <label for="num">Age</label>
+                <input type="text" id="num" placeholder="age" class="a">
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email" class="em">
+            </div>
+
+            <!-- ===== Dropdown to select user role ===== -->
+            <div class="form-control">
+                <label for="select">Which options best describe you</label>
+                <select name="position" id="select">
+                    <option value="">Student</option>
+                    <option value="">Teacher</option>
+                    <option value="">Govt Employee</option>
+                    <option value="">Worker</option>
+                </select>
+            </div>
+
+            <!-- ===== Recommendation choice using radio buttons ===== -->
+            <div class="form-control">
+                <label for="rec">Would you recommend GeeksforGeeks to a friend</label>
+                <label for="yes">
+                    <input type="radio" id="yes" name="rec">Yes
+                </label>
+                <label for="no">
+                    <input type="radio" id="no" name="rec">No
+                </label>
+                <label for="maybe">
+                    <input type="radio" id="maybe" name="rec">Maybe
+                </label>
+            </div>
+
+            <!-- ===== Multiple skill selection using checkboxes ===== -->
+            <div class="form-control">
+                <label for="know">Language and Programming are knows</label>
+
+                <label for="python">
+                    <input type="checkbox" id="python" name="know">Python
+                </label>
+                <label for="c">
+                    <input type="checkbox" id="c" name="know">C
+                </label>
+                <label for="c++">
+                    <input type="checkbox" id="c++" name="know">C++
+                </label>
+                <label for="java">
+                    <input type="checkbox" id="java" name="know">Java
+                </label>
+                <label for="django">
+                    <input type="checkbox" id="django" name="know">Django
+                </label>
+                <label for="fastapi">
+                    <input type="checkbox" id="fastapi" name="know">FastApi
+                </label>
+                <label for="dsa">
+                    <input type="checkbox" id="dsa" name="know">DSA
+                </label>
+            </div>
+
+            <!-- ===== Textarea to write any suggestion msg ===== -->
+            <div class="form-control">
+                <label for="comment">Any Comments and Suggestion</label>
+                <textarea name="com" id="comment" placeholder="enter your text here"></textarea>
+            </div>
+            <!-- ===== Submit form button ===== -->
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
