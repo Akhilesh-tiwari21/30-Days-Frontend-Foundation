@@ -49,6 +49,8 @@ This repository documents my daily practice, problem-solving approach, and progr
 3. [DAY-03] 📘 FAQ Accordion Component
 4. [DAY-04] 📝 Survey / Feedback Form
 5. [DAY-05] 🎯 Age Calculator
+6. [DAY-06] 🌗 Theme Toggle (Dark / Light)
+
 ## 🛠️ Tech Stack
 1. HTML5 – semantic structure
 2. CSS3 – layout, responsiveness, UI polish
