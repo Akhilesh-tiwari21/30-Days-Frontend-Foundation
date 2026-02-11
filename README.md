@@ -50,6 +50,7 @@ This repository documents my daily practice, problem-solving approach, and progr
 4. [DAY-04] 📝 Survey / Feedback Form
 5. [DAY-05] 🎯 Age Calculator
 6. [DAY-06] 🌗 Theme Toggle (Dark / Light)
+7. [DAY-07] 🌌 Parallax Portfolio
 
 ## 🛠️ Tech Stack
 1. HTML5 – semantic structure
