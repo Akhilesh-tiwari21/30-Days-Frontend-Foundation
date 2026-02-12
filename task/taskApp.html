@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TASK-APP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taskApp.css" />
+</head>
+<body>
+    <main class="main-body">
+        <!-- ======= Task Planner ====== -->
+        <header class="app-header">
+            <h1 class="head">TASK PLANNER</h1>
+        </header>
+
+        <!-- ==== Task Adder ===== -->
+        <section class="task-adder">
+            <h2 class="heading">TASK ADDER</h2>
+            <div class="input-type">
+                <!--<label for="task"> ADD TASK</label>-->
+                <input type="text" id="task" placeholder="add task here" />
+                <button type="button" class="btn-add">ADD TASK</button>
+            </div>
+        </section>
+
+        <!-- ===== Task Board ===== -->
+        <section class="task-board">
+            <!-- ======== Added Task ======= -->
+            <div class="task-column">
+                <h2 class="heading">ADDED TASK</h2>
+                <div class="list-div">
+                    <ul class="task-list added-list"></ul>
+                </div>
+            </div>
+
+            <!-- ====== Complete Task ===== -->
+            <div class="task-column">
+                <h2 class="heading">COMPLETE TASK</h2>
+                <div class="list-div">
+                    <ul class="task-list completed-list"></ul>
+                </div>
+            </div>
+
+            <!-- ===== Deleted Task ===== -->
+            <div class="task-column">
+                <h2 class="heading">DELETE TASK</h2>
+                <div class="list-div">
+                    <ul class="task-list deleted-list"></ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="taskApp.js"></script>
+</body>
+</html>

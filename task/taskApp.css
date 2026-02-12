@@ -1,0 +1,138 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color :aliceblue;
+    min-height: 100vh;
+}
+
+.main-body {
+    max-width: 1100px;
+    width: 95%;
+    margin: 20px auto;
+    margin-top : 20px;
+    margin-left : 20px;
+    border : 1px solid rgb(101, 192, 204);
+    background-color :rgb(101, 192, 204);
+    border-radius : 20px;
+}
+
+.head {
+    text-align : center;
+    font-size : 1.6rem;
+    font-weight : 600;
+    color : blue;
+}
+
+.task-adder {
+    max-width : 350px;
+    margin: 40px auto;
+    padding: 12px;
+    background-color: #a3a1a196;
+    border-radius: 10px;
+    text-align: center;
+}
+.task-adder .heading {
+    font-size : 1.2rem;
+    color : blue;
+    font-weight : 580;
+}
+
+.task-adder  #task {
+    min-height : 25px;
+    min-width : 80px;
+    display : inline-block;
+    border-radius : 5px;
+    border : 1px solid black;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+#task:hover {
+    border-color: #4da3ff;
+}
+#task:focus {
+    outline: none;
+    border-color: #4da3ff;
+    box-shadow: 0 0 0 2px rgba(77, 163, 255, 0.3);
+}
+
+
+.input-type .btn-add {
+    min-height : 25px;
+    min-width : 80px;
+    border-radius : 5px;
+    border : 1px solid rgb(47, 47, 153);
+    background-color : rgb(47, 47, 153) ;
+    color : white;
+}
+
+.task-board {
+    min-height : auto;
+    width: 100%;
+    max-width : 90%;
+    border : 1px solid rgb(91, 91, 182);
+    background-color :rgb(91, 91, 182);
+    border-radius : 20px;
+    margin : auto;
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+}
+
+.task-column {
+    height: 100%;
+    min-height : 390px;
+    width: 100%;
+    max-width : 280px;
+    border : 1px solid white;
+    background-color : white;
+    border-radius : 10px;
+
+}
+
+.task-column .heading {
+    text-align : center;
+    font-size: 1.2rem;
+    color : blue;
+}
+
+.add-list {
+    list-style-type: none;
+    font-size : 1.1rem;
+    padding : 2px;
+    margin : 2px;
+}
+
+.complete-task{
+    list-style-type: none;
+    font-size : 1.1rem;
+    padding : 2px;
+    margin : 2px;
+}
+
+.delete-task {
+    list-style-type: none;
+    font-size : 1.1rem;
+    padding : 2px;
+    margin : 2px;
+}
+
+@media (max-width: 768px) {
+    .task-board {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .task-column {
+        max-width:70%;
+        margin-top: 5px;
+    }
+    #task{
+        max-width: 65%;
+    }
+}
+
